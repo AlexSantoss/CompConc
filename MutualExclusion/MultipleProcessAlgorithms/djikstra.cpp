@@ -2,6 +2,9 @@
 #include <vector>
 #include <thread>
 
+//Algoritmo de Djikstra para resolver o problema de exclusao mutua, onde mais de um processo nao pode entrar na regiao
+//critica ao mesmo tempo
+
 //numero de processos
 #define nProcess 10
 
