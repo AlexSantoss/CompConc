@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <iostream>
 #include <vector>
 #include <thread>
@@ -40,7 +39,6 @@ void dijkstra(int id){
 
 int main(){
 	vector<thread> threads;
-	srand(time(NULL));
 	
 	for(int i=0; i < nProcessos; i++)
 		b[i] = c[i] = true;
